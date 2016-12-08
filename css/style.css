@@ -5,11 +5,11 @@ header {
   z-index: 500;
   box-shadow: 0 2px 10px #cecece;
   padding: 15px 0 8px 0;
-  background: #efefef;
+  background: #278476;
 }
 
 .branding {
-  background: url("../images/ing.svg") no-repeat;
+  background: url("../images/0") no-repeat;
   display: block;
   width: 170px;
   height: 40px;
@@ -69,7 +69,7 @@ nav li a:active {
 #news {
   width: 100;
   padding: 100px 0;
-  background-color: #000;
+  background-color: #1b4e61;
 }
 
 #news h3{
@@ -82,8 +82,28 @@ nav li a:active {
   margin-bottom: 20px;
   text-align: left;
   color: #fff;
+ 
+}
+.portfolio-grid .columns_4 {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 215px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  height: 215px;
+  margin: 0 10px 0 10px;
 }
 
+.portfolio-grid .columns_4 p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.portfolio-grid {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 20px;
+}
 #campaign {
   width: 100;
   padding: 100px 0;
@@ -159,7 +179,7 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 100px 0;
-  background-color: #F2F2F2;
+  background-color: #1b4e6d;
 }
 section.module2.content {
   padding: 100px 0;
@@ -175,10 +195,11 @@ section.module.parallax {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+	background-image: url("../images/Monaco-Port-Night-e1455795401367.jpg");
 }
 section.module.parallax h1 {
   margin-top: 0;
-  font-size: 20px;
+  font-size: 70px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 800px;
   font-weight: 700;
@@ -188,24 +209,29 @@ section.module.parallax h1 {
 }
 
 .quote {
-  font-size: 1em;
+  font-size: 3em;
 }
-
+section.module.parallax-4 {
+  background-image: url("../images/ytg0916_cur01.jpg");
+  background-color: #1b4e61;
+}
 section.module.parallax-1 {
-  background-image: url("../images/pano_two.jpg");
-  background-color: #c95347;
+  background-image: url("../images/St..Thomas.original.7100.jpg");
+  background-color: #1b4e61;
 }
 section.module.parallax-2 {
-  background-image: url("../images/pano_one.jpg");
+  background-image: url("../images/Split-Croatia-Wallpaper.jpg");
   background-color: #58595B;
 }
 section.module.parallax-3 {
-  background-image: url("../images/desktop.jpg");
+  background-image: url("../images/luxury-yacht-sales-and-charter.jpg");
+ background-color: #58595B;
+
 }
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 96px;
   }
   section.module p {
     font-size: 20px;
@@ -216,8 +242,9 @@ section.module.parallax-3 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 19px;
+    font-size: 96px;
   }
 }
 
 /* ------- [ End Parallax CSS ] ------- */
+
